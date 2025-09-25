@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Lekcja 14 Kotwice</title>
+</head>
+<body>
+    <header>
+        <h1>Definiowanie kotwic na stronie</h1>
+    </header>
+    <main>
+        <section>
+            <h2 id="a_top">Tutaj znajduje się zdefiniowana kotwica o nazwie <i>a_top</i>.</h2>
+            <p>
+                <a href="#a_bottom">To jest link do kotwicy dolnej</a>
+                <figure>
+                    <img src="kotwica1.png" alt="Kotwica czarna">
+                    <figcaption>
+                        Rysunek 1. Kotwica
+                    </figcaption>
+                </figure>
+            </p>
+        </section>
+        <section>
+            <br><br><br>
+            <p>
+                Zdefiniowanie kotwicy w konkretnym miejscu dokumentu HTML<br>
+                i wskazanie tej kotwicy w linku do tego dokumentu,<br>
+                spowoduje po jego otwarciu, przewinięcie -<br>
+                tak aby wiersz zawierający kotwicę znajdował się jak najbliżej<br>
+                górnej krawędzi okna przeglądarki.<br>
+                Aby było co przewijać dodamy dwa rysunki kotwic,<br>
+                oraz trochę pustych linii, a następnie, zdefiniujemy dwie kotwice.
+            </p>
+            <br><br><br>
+        </section>
+        <section>
+            <a name="a_bottom"></a>
+            <h2>Tutaj znajduje się zdefiniowana kotwica o nazwie <i>a_bottom</i>.</h2>
+            <p>
+                <a href="#a_top">To jest link do kotwicy górnej</a>
+                <figure>
+                    <img src="kotwica2.png" alt="Kotwica czerwona">
+                    <figcaption>
+                        Rysunek 1. Kotwica
+                    </figcaption>
+                </figure>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
